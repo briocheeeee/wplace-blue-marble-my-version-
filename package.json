@@ -1,0 +1,15 @@
+{
+  "name": "wplace-bluemarble",
+  "version": "0.82.1",
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.js",
+    "patch": "node build/patch.js && npm run build"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "jsdoc": "^4.0.4",
+    "minami": "^1.2.3",
+    "terser": "^5.43.1"
+  }
+}
